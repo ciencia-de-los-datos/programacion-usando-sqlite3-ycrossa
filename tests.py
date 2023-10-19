@@ -217,7 +217,7 @@ def test_08():
     with open("pregunta_08.sql", encoding="utf-8") as file:
         query = file.read()
     assert pd.read_sql_query(query, conn).to_dict() == {
-        "strftime('%Y', c23)": {0: "2016", 1: "2017", 2: "2018", 3: "2019"},
+        "YEAR": {0: "2016", 1: "2017", 2: "2018", 3: "2019"},
         "avg(c21)": {
             0: 564.4764285714285,
             1: 515.1563636363637,
