@@ -2,7 +2,7 @@ CREATE TABLE tbl0 (
     K0  CHAR(1),
     c01 INT,
     c02 INT,
-    c03 CHAR(4),
+    c03 CHAR(5),
     c04 FLOAT
     );
 
